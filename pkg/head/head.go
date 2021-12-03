@@ -26,7 +26,7 @@ const (
 // PlayerHead represents a 8x8 array of `Color`.
 type PlayerHead = [Dimension][Dimension]color.Color
 
-// GetHeadFromNet retrieves the head portion
+// GetHeadFromNet retrieves the head portion from `username`'s skin. `hat` determines whether the hat portion should be included.
 func GetHeadFromNet(username string, hat bool) (PlayerHead, error) {
 	url, _ := skin.GetSkinURL(username)
 	resp, err := http.Get(url)
