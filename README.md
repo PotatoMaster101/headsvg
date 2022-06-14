@@ -3,12 +3,13 @@ Quick and dirty Minecraft player head to SVG converter. Can be used to generate 
 
 ## Usage
 ```
-headsvg [-h|--help] -n|--name "<value>" [-s|--scale <integer>]
+headsvg [-h|--help] -n|--name "<value>" [-s|--scale <integer>] [-p|--percent]
 
 Arguments:
   -h  --help   Print help information
   -n  --name   Player username
   -s  --scale  SVG pixel scale. Default: 100
+  -p  --percent  Whether to output x/y/width/height as a percentage. Default: false
 ```
 
 ## Building
