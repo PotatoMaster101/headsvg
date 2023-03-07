@@ -9,8 +9,8 @@ require (
 )
 
 require (
-	github.com/klauspost/compress v1.8.2 // indirect
-	github.com/klauspost/cpuid v1.2.1 // indirect
+	github.com/andybalholm/brotli v1.0.4 // indirect
+	github.com/klauspost/compress v1.15.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
-	github.com/valyala/fasthttp v1.9.0 // indirect
+	github.com/valyala/fasthttp v1.34.0 // indirect
 )
