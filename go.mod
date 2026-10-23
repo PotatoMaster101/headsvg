@@ -1,6 +1,6 @@
 module github.com/PotatoMaster101/headsvg
 
-go 1.17
+go 1.24
 
 require (
 	github.com/Lukaesebrot/mojango v0.0.0-20200623100037-76cbec69139f
@@ -10,7 +10,7 @@ require (
 
 require (
 	github.com/andybalholm/brotli v1.0.4 // indirect
-	github.com/klauspost/compress v1.15.0 // indirect
+	github.com/klauspost/compress v1.18.7 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.34.0 // indirect
 )
